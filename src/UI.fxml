@@ -28,9 +28,9 @@
          </font>
       </Button>
       <Line endX="989.0" layoutX="85.0" layoutY="114.0" startX="-85.0" />
-      <TabPane layoutX="3.0" prefHeight="29.0" prefWidth="1074.0" tabClosingPolicy="UNAVAILABLE">
+      <TabPane fx:id="tabpane" layoutX="3.0" prefHeight="29.0" prefWidth="1074.0" tabClosingPolicy="UNAVAILABLE">
         <tabs>
-          <Tab text="Default Tab" />
+          <Tab fx:id="tab" text="Default Tab" />
         </tabs>
       </TabPane>
       <Button fx:id="newtabbutton" layoutX="964.0" layoutY="29.0" mnemonicParsing="false" onAction="#newtab" prefHeight="29.0" prefWidth="96.0" text="New Tab" textFill="#3fcd8d" wrapText="true">
@@ -65,12 +65,12 @@
             <Font name="DengXian Bold" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="124.0" layoutY="83.0" mnemonicParsing="false" onAction="#zoomin" text="+" textFill="#3fcd8d" wrapText="true">
+      <Button layoutX="115.0" layoutY="28.0" mnemonicParsing="false" onAction="#zoomin" prefHeight="29.0" prefWidth="31.0" text="+" textFill="#3fcd8d" wrapText="true">
          <font>
             <Font name="DengXian Bold" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="158.0" layoutY="83.0" mnemonicParsing="false" onAction="#zoomout" text="-" textFill="#3fcd8d" wrapText="true">
+      <Button layoutX="152.0" layoutY="28.0" mnemonicParsing="false" onAction="#zoomout" prefHeight="29.0" prefWidth="31.0" text="-" textFill="#3fcd8d" wrapText="true">
          <font>
             <Font name="DengXian Bold" size="15.0" />
          </font>

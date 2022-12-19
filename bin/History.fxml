@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="748.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TableView fx:id="historytable" layoutY="1.0" prefHeight="500.0" prefWidth="748.0">
+        <columns>
+          <TableColumn prefWidth="344.0" text="URL" />
+          <TableColumn prefWidth="402.0" text="Time" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
