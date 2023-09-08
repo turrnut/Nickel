@@ -18,10 +18,6 @@ Please note the following important instructions to ensure the proper functionin
 
     Do Not Modify "runtime" Directory: It is crucial not to delete or edit any files located within the "runtime" directory. Altering these files may result in the program not functioning correctly.
 
-## Source Code
-    You can access the source code by navigating to https://github.com/turrnut/Nickel
-    All code in this repository is under the public domain.
-
 ## Technical Support
 
 If you encounter any technical issues or have questions, please feel free to contact us:
