@@ -7,10 +7,10 @@ Logo design by <i>Nickels</i></p></b>
 ## Getting Started
 
 To run the Nickel Web Browser, follow these simple steps:
-    
-    Download and extract the files from [here](https://github.com/turrnut/Nickel/releases/)
 
-    Double-Click: Locate and double-click on the executable file named "NickelBrowser.exe."
+1. Download and extract the files from [here](https://github.com/turrnut/Nickel/releases/) (pick the version you want)
+
+2. Double-Click: Locate and double-click on the executable file named "NickelBrowser.exe."
 
 Please note the following important instructions to ensure the proper functioning of the application:
 
