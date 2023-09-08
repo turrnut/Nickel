@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="697.0" prefWidth="1065.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="republic.turrnut.browser.Controller">
+   <children>
+      <Button fx:id="goButton" ellipsisString="↻" layoutX="145.0" layoutY="35.0" mnemonicParsing="false" onAction="#goPage" prefHeight="34.0" prefWidth="42.0" text="Go" textAlignment="CENTER">
+         <font>
+            <Font name="Garamond Bold" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="urlField" layoutX="196.0" layoutY="35.0" onAction="#goPage" prefHeight="34.0" prefWidth="770.0" />
+      <Button fx:id="refreshButton" layoutX="3.0" layoutY="35.0" mnemonicParsing="false" onAction="#refresh" prefHeight="34.0" prefWidth="33.0" text="🔄" textAlignment="CENTER" textFill="#22b14c">
+         <font>
+            <Font name="Garamond Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="zoomInButton" layoutX="982.0" layoutY="34.0" mnemonicParsing="false" onAction="#zoomIn" prefHeight="20.0" prefWidth="34.0" text="+" textAlignment="CENTER" textFill="#22b14c">
+         <font>
+            <Font name="Garamond Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="zoomOutButton" layoutX="1021.0" layoutY="34.0" mnemonicParsing="false" onAction="#zoomOut" prefHeight="20.0" prefWidth="34.0" text="-" textAlignment="CENTER" textFill="#22b14c">
+         <font>
+            <Font name="Garamond Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="46.0" layoutY="33.0" mnemonicParsing="false" onAction="#goBack" prefHeight="35.0" prefWidth="42.0" text="←" textAlignment="CENTER" textFill="#22b14c">
+         <font>
+            <Font name="Garamond Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="95.0" layoutY="34.0" mnemonicParsing="false" onAction="#goNext" prefHeight="35.0" prefWidth="42.0" text="→" textAlignment="CENTER" textFill="#22b14c">
+         <font>
+            <Font name="Garamond Bold" size="18.0" />
+         </font>
+      </Button>
+      <TabPane fx:id="tabPane" layoutX="3.0" layoutY="72.0" prefHeight="598.0" prefWidth="1062.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Page">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="711.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <Button fx:id="newTabButton" layoutX="946.0" layoutY="3.0" mnemonicParsing="false" onAction="#newTab" prefHeight="26.0" prefWidth="109.0" text="NEW TAB" textAlignment="CENTER" textFill="#22b14c" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Garamond Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="closeTabButton" layoutX="831.0" layoutY="3.0" mnemonicParsing="false" onAction="#closeTab" prefHeight="26.0" prefWidth="109.0" text="CLOSE TAB" textAlignment="CENTER" textFill="#22b14c" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Garamond Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
